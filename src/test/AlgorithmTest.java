@@ -2,6 +2,9 @@ package test;
 
 import java.util.Scanner;
  
+/*
+ * 找出最大值最小值
+ */
 public class AlgorithmTest {
 
 	public static void main(String[] args) {
