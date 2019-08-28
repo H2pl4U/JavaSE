@@ -7,8 +7,8 @@ public class DataTypeTest01 {
 	    Integer a2 = -128;
 	    Integer a3 = -128;
 	    Integer a4 = 128;
-	    System.out.println(a1 == a4);
-	    System.out.println(a2 == a3);
+	    System.out.println(a1 == a4);	//false
+	    System.out.println(a2 == a3);	//true
 	    
 	    Byte b1 = 127;
 	    Byte b2 = 127;
@@ -22,8 +22,8 @@ public class DataTypeTest01 {
 	    Long c2 = 128L;
 	    Long c3 = -128L;
 	    Long c4 = -128L;
-	    System.out.println(c1 == c2);
-	    System.out.println(c3 == c4);
+	    System.out.println(c1 == c2);	//false
+	    System.out.println(c3 == c4);	//true
 	    
 	    //char没有负值
 	    //发现char也是在0到127之间自动拆箱
