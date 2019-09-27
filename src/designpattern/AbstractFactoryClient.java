@@ -4,7 +4,7 @@ class AbstractProductA {
 }
 class AbstractProductB {
 }
-
+ 
 class ProductA1 extends AbstractProductA {
 }
 class ProductA2 extends AbstractProductA {
