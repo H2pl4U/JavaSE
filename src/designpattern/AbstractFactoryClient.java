@@ -52,5 +52,6 @@ public class AbstractFactoryClient{
         AbstractFactory abstractFactory = new ConcreteFactoryA();
         AbstractProductA productA = abstractFactory.createProductA();
         AbstractProductB productB = abstractFactory.createProductB();
+        
     }
 }
