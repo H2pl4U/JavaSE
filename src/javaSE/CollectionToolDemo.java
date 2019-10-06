@@ -13,6 +13,7 @@ public class CollectionToolDemo {
 		list.add("8");
 		list.add("8");
 		list.add("8");
+		list.add("8");
 		list.add("10");  
 		// ¼¯ºÏÔªËØÅÅĞò
 		Collections.sort( list ); 
