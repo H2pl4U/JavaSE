@@ -11,6 +11,7 @@ public class APISystemDemo {
 		long start = System.currentTimeMillis();
 		for(int i=0;i<=100;i++){
 			System.out.println(i);
+			System.out.println(i);
 		}
 		long end = System.currentTimeMillis();
 		System.out.println("need:"+(end-start)+"ms");
