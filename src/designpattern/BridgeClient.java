@@ -5,7 +5,6 @@ package designpattern;
  * 将抽象与实现分离开来，使它们可以独立变化。
  * Abstraction：定义抽象类的接口
  * Implementor：定义实现类接口
- * 
  * RemoteControl 表示遥控器，指代 Abstraction。
  * TV 表示电视，指代 Implementor。
  * 桥接模式将遥控器和电视分离开来，从而可以独立改变遥控器或者电视的实现。
