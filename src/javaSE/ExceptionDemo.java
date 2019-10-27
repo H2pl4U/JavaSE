@@ -9,7 +9,6 @@ class ArrayTools {
 }
 
 public class ExceptionDemo {
-
 	public static void main(String[] args) {
 		int[] arr = { 34, 12, 67 };
 		// 程序会产生一个数组索引越界异常ArrayIndexOfBoundsException
