@@ -8,7 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 /*
  * 采用高效的字符缓冲流，完成文本文件的赋值
- * 
  * 数据源： file.txt
  * 目的地： copyFile.txt
  * 
