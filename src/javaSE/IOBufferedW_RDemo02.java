@@ -17,7 +17,6 @@ import java.io.IOException;
  * 	3,读数据
  * 	4，写数据
  * 	5，关闭流
- * 
  */
 
 public class IOBufferedW_RDemo02 {
