@@ -20,16 +20,15 @@ public class CollectionDemo {
 		coll.add("rich");
 		coll.add("happiness");
 		Object[] object = coll.toArray();
-		for(int i=0;i<object.length;i++){
+		for (int i = 0; i < object.length; i++) {
 			System.out.println(object[i]);
 		}
 	}
-	
-	 /*
-	   * Collection接口方法
-	   * boolean contains(Object o) 判断对象是否存在于集合中,对象存在返回true
-	   * 方法参数是Object类型
-	   */
+
+	/*
+	 * Collection接口方法 boolean contains(Object o) 判断对象是否存在于集合中,对象存在返回true
+	 * 方法参数是Object类型
+	 */
 	private static void function02() {
 		Collection<String> coll = new ArrayList<String>();
 		coll.add("lw");
@@ -40,24 +39,21 @@ public class CollectionDemo {
 		boolean b = coll.contains("rich");
 		System.out.println(b);
 	}
-	
+
 	/*
-	   * Collection接口的方法
-	   * void clear() 清空集合中的所有元素
-	   * 集合容器本身依然存在
-	   */	
+	 * Collection接口的方法 void clear() 清空集合中的所有元素 集合容器本身依然存在
+	 */
 	private static void function03() {
-		Collection<String> coll =new ArrayList<String>();
+		Collection<String> coll = new ArrayList<String>();
 		coll.add("jjf");
 		coll.add("chicken");
 		System.out.println(coll);
 		coll.clear();
 		System.out.println(coll);
 	}
-	
+
 	/*
-	 * Collection接口方法
-	 * boolean remove(Object o)移除集合中指定的元素
+	 * Collection接口方法 boolean remove(Object o)移除集合中指定的元素
 	 */
 	private static void function04() {
 		Collection<String> coll = new ArrayList<String>();
